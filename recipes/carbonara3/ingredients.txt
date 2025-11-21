@@ -1,0 +1,6 @@
+ingredient,amount,unit
+bacon,250,g
+cream,100,mL
+eggs,4,yolk
+parmesan,125,g
+spaghetti,300,g
