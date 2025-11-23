@@ -22,15 +22,16 @@ def show_shopping():
     # look at the menu
     # read each set of ingredients
     # aggregate (sum) ingredients with the same unit
-    pass
+    shopping_list = pd.read_csv('shopping/shopping_latest.txt', header=None)
+    edited_shopping_list = st.data_editor(shopping_list)
+    st.write(shopping_list)
+
 
 # page to create new menu (link from current menu)
 def new_menu(recipes_dir = './recipes', n_recipes = 3):
     # list directories in the recipes directory
     # allow to select a subset of recipes
     # store that selection in a file (somewhere)
-    print('hello')
-    st.write('*** Hello, world!***')
     # get the available recipes
     recipes = os.listdir(recipes_dir)
     # remove non-recipe files starting with a dot
@@ -40,7 +41,6 @@ def new_menu(recipes_dir = './recipes', n_recipes = 3):
     # create a dict to store the recipes and ingredients
     menu_data = {'recipes': [], 'ingr_unit': {}}
     for i in rnd_index:
-        st.write(recipes[i])
         menu_data['recipes'].append(recipes[i])
         ingredients = pd.read_csv(f"{recipes_dir}/{recipes[i]}/ingredients.txt")
         for row in range(ingredients.shape[0]):
@@ -55,9 +55,10 @@ def new_menu(recipes_dir = './recipes', n_recipes = 3):
     time_stamp = strftime("%Y-%m-%d-%H-%M-%S", gmtime())
     menu = pd.DataFrame(menu_data['recipes'])
     menu.to_csv(f"menus/menu_{time_stamp}.txt", index=False, header=False)
+    menu.to_csv(f"menus/menu_latest.txt", index=False, header=False)
     shopping_list = pd.Series(menu_data['ingr_unit']).reset_index()
     shopping_list.to_csv(f"shopping/shopping_{time_stamp}.txt", index=False, header=False)
-    st.write(time_stamp)
+    shopping_list.to_csv(f"shopping/shopping_latest.txt", index=False, header=False)
     
 
 
@@ -67,8 +68,21 @@ def new_recipe():
     pass
 
 def main_page():
+    st.image('./logo.png', width=300)
     st.write("Welcome to FoodleDo")
-    pass
+    menu = pd.read_csv('menus/menu_latest.txt', header=None)
+    st.write(menu)
+    
+    st.session_state.new_menu = st.button("Update menu")
+    st.session_state.show_shopping = st.button("View shopping list")
+    
+    if st.session_state.new_menu:
+        new_menu()
+        del st.session_state.new_menu
+    
+    if st.session_state.show_shopping:
+        show_shopping()
+        del st.session_state.show_shopping
 
 if __name__ == '__main__':
     main_page()
