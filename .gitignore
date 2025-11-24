@@ -1,7 +1,7 @@
 # App-specific ignores
 */.DS_Store
 .DS_Store
-menu/
+menus/
 shopping/
 
 # Byte-compiled / optimized / DLL files
