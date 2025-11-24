@@ -1,4 +1,0 @@
-ingredient,amount,unit
-bread,2,slices
-cheese,50,g
-worcester sauce,4,dashes

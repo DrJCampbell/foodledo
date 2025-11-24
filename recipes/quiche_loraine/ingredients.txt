@@ -1,8 +1,0 @@
-ingredient,amount,unit
-bacon,200,g
-butter,100,g
-creme fraiche,200,mL
-eggs,3,whole egg
-eggs,1,yolk
-gruyere,50,g
-plain flour,125,g

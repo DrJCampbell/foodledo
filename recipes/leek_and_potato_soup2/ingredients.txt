@@ -1,5 +1,0 @@
-ingredient,amount,unit
-potatos,225,g
-leek,2,whole
-vegetable stock,1.2,L
-cream,50,mL
