@@ -1,0 +1,12 @@
+ingredient,amount,unit
+fish sauce,6,mL
+water,6,mL
+sugar,0.25,tsp
+garlic,0.25,clove
+naga sauce,1,dab
+lime juice,1,mL
+carrot,0.25,unit
+spring onion,0.25,unit
+corriander,2,g
+nuts,10,g
+aubergine,0.25,unit

@@ -1,0 +1,10 @@
+ingredient,amount,unit
+cauliflower,150,g
+butter,12.5,g
+bay leaf,0.25,unit
+clove,0.25,unit
+mustard,0.25,tsp
+cheese,75,g
+plain flour,12.5,g
+milk,250,mL
+onion,0.125,unit

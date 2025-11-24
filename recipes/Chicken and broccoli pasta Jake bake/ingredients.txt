@@ -1,0 +1,10 @@
+ingredient,amount,unit
+chicken breast,88,g
+broccolli,50,g
+mushrooms,44,g
+boursin,20,g
+fusilli,75,g
+single cream,71,mL
+cheddar,22,g
+garlic,0.25,cloves
+sun dried tomato pesto,15,mL

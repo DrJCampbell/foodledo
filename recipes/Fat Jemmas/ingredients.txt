@@ -1,0 +1,10 @@
+ingredient,amount,unit
+chips,100,g
+steak,75,g
+chicken breast,0.25,unit
+spring onion,1,unit
+parmesan,20,g
+double cream,25,mL
+roquefort,12.5,g
+mayo,20,mL
+chipotle paste,0.5,tsp

@@ -1,0 +1,12 @@
+ingredient,amount,unit
+plain flour,20,g
+water,40,mL
+ground bonito,1,pinch
+chinese leaf cabbage,100,g
+spring onion,1,unit
+bacon,25,g
+cooked noodles,150,g
+okonomiyaki sauce,15,mL
+egg,1,unit
+japanese mayo,10,mL
+aonori,1,pinch
