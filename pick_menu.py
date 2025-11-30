@@ -11,6 +11,7 @@ recipes_dir = './recipes'
 
 recipes = os.listdir(recipes_dir)
 recipes = [r for r in recipes if not r.startswith('.')]
+recipes.sort()
 
 selected_recipes = st.multiselect(
     "Choose recipes:", list(recipes)

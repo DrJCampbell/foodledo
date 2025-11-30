@@ -1,0 +1,8 @@
+ingredient,amount,unit
+chicken,25,g
+onion,0.25,unit
+carrot, 0.25, unit
+garlic,0.25,clove
+bacon,25,g
+red lentils,50,g
+chicken stock,250,mL

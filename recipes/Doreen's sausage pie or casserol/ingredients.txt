@@ -1,0 +1,7 @@
+ingredient,amount,unit
+sausage meat,125,g
+potato,50,g
+tomato,1,unit
+apple,0.5,unit
+gravy,75,mL
+cheese,25,g

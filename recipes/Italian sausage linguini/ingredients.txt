@@ -1,0 +1,9 @@
+ingredient,amount,unit
+italian sausages,1.5,sausages
+dried linguini,100,g
+shallots,1.5,unit
+cherry tomatoes,4,unit
+white wine,35,mL
+lemon juice,1,squirt
+creme fraich,75,mL
+parmesan,20,g

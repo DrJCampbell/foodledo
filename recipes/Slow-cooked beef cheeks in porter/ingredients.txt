@@ -1,0 +1,21 @@
+ingredient,amount,unit
+beef cheeks,1,unit
+onion,0.5,unit
+bulb of garlic,0.5,unit
+thyme,1,sprig
+porter,250,mL
+olive oil,0.5,tbsp
+butter,30,g
+beef stock,175,mL
+carrots,250,g
+star anise,0.5,unit
+butter,25,g
+honey,12.5,g
+cumin,0.5,tsp
+king edward potatoes,250,g
+butter,30,g
+milk,40,mL
+parsley,0.25,bunch
+red onion,0.25,unit
+lemon,0.25,unit
+capers,0.25,tsp

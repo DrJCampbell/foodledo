@@ -1,0 +1,8 @@
+ingredient,amount,unit
+chicken thigh,100,g
+soy sauce,1,tsp
+ginger paste,0.25,tsp
+garlic paste,0.25,tsp
+white wine,1,stp
+cornflour,50,g
+oil,250,mL

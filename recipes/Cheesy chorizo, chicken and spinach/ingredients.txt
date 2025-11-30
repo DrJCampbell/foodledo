@@ -1,0 +1,10 @@
+ingredient,amount,unit
+coconut oil,1,tsp
+chorizo,75,g
+red onion,0.5,unit
+chicken breast,240,g
+cherry tomatoes,4,unit
+baby spinach leaves,50,g
+mozarella,0.5, unit
+pine nuts,20,g
+crusty bread,1,slice

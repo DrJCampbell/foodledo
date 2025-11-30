@@ -1,0 +1,15 @@
+ingredient,amount,unit
+yellow split peas,75,g
+coconut oil,0.75,tsp
+cumin seeds,0.5,tsp
+bay leaves,1,leaf
+red onion,0.5,unit
+garlic cloves,2,clove
+red chilli,1,unit
+ginger,2.5,cm
+turmeric,0.25,tsp
+garam masala,0.5,tsp
+tomatoes,2.5,unit
+chicken stock,125,mL
+chicken breast,260,g
+corriander leaves,1,bunch

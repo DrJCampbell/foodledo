@@ -1,0 +1,15 @@
+ingredient,amount,unit
+water,83,mL
+lime leaves,0.5,leaves
+salmon fillets,125,g
+butter,7.5,g
+oil,0.1,mL
+onion,0.2,units
+ground corriander,0.1,tsp
+cumin,0.1,tsp
+tumeric,0.1,tsp
+basmati rice,38,g
+egg,1,unit
+corriander leaves,1,tbsp
+lime,0.5,unit
+fish sauce,1,dash

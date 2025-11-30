@@ -13,5 +13,9 @@ for i in menu.index:
     with open(f"./recipes/{menu.iloc[i][0]}/method.txt") as f:
         for l in f:
             this_recipe = this_recipe + l
+    this_ingredients = ''
+    with open(f"./recipes/{menu.iloc[i][0]}/ingredients.txt") as f:
+        for l in f:
+            this_ingredients = this_ingredients + "\n" + l
     recipe_expand = st.expander(menu.iloc[i][0])
-    recipe_expand.write(this_recipe)
+    recipe_expand.write(f"{this_recipe}\n\n{this_ingredients}")
