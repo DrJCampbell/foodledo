@@ -1,0 +1,6 @@
+ingredient,amount,unit
+spaghetti,75,g
+double cream,25,mL
+egg yolk,1,unit
+streaky bacon,63,g
+parmesan,25,g

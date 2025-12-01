@@ -1,0 +1,12 @@
+ingredient,amount,unit
+onion,0.25,unit
+garlic,0.25,clove
+chilli powder,0.25,tsp
+fresh chilli,0.25,unit
+cumin, 0.25,tsp
+chuck steak,120,g
+tomato puree,50,g
+tinned tomatoes,200,g
+cinamon stick,0.125,unit
+kindey beans,200,g
+rice,75,g

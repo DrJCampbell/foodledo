@@ -1,0 +1,7 @@
+ingredient,amount,unit
+Japanese curry cubes,25,g
+potato,160,g
+carrot,0.5,unit
+chicken breast,100,g
+onion,0.25,unit
+sushi rice,75,g

@@ -1,0 +1,12 @@
+ingredient,amount,unit
+bacon,28,g
+rosemary,0.5,sprig
+onion,0.25,unit
+garlic,0.75,clove
+chuck steak,120,g
+red wine,30,mL
+oregano,0.25,tsp
+tinned tomatoes,100,g
+tomato puree,50,g
+spaghetti,100,g
+parmesan,25,g
